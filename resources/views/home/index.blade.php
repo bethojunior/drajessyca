@@ -4,11 +4,10 @@
     <title>Dra Jessyca Martins</title>
     <meta charset="utf-8" />
     <meta name="theme-color" content="#5F4D94">
-    <link rel="icon" href="images/icon.png">
+    <link rel="icon" href="{{ asset('assets/images/logo/me.jpg') }}">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="{{ asset('css/main.css') }}" />
     <noscript><link rel="stylesheet" href="{{ asset('css/noscript.css') }}" /></noscript>
-
 
     <meta name="description" content="Dra Jessyca Martins" />
     <meta property="og:title" content="Dra Jessyca Martins" />

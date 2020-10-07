@@ -8,6 +8,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="{{ asset('css/main.css') }}" />
     <noscript><link rel="stylesheet" href="{{ asset('css/noscript.css') }}" /></noscript>
+
+
+    <meta name="description" content="Dra Jessyca Martins" />
+    <meta property="og:title" content="Dra Jessyca Martins" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="Dra Jessyca Martins" />
+    <meta property="og:image" content="https://drajessycamartins.madgic.com.br/assets/images/logo/me.jpg" />
+    <meta property="og:description" content="Dra Jessyca Martins" />
+    <meta property="og:site_name" content="Dra Jessyca Martins" />
+
 </head>
 <body class="is-preload">
 
@@ -18,7 +28,7 @@
     <header id="header">
         <div class="logo">
             <img style="    border-radius: 99vw;
-    width: inherit;" src="https://instagram.ffor10-1.fna.fbcdn.net/v/t51.2885-19/s150x150/117241803_1179490102409885_6558420481914738996_n.jpg?_nc_ht=instagram.ffor10-1.fna.fbcdn.net&_nc_ohc=iwItOLbMQF8AX_Peyl7&oh=c6c7dcc77d97cdfa39e468dec839f119&oe=5FA5CBFE">
+    width: inherit;" src="{{ asset('assets/images/logo/me.jpg') }}" >
 {{--            <span class="icon fa-gem"></span>--}}
         </div>
         <div class="content">

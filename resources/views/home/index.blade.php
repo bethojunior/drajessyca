@@ -68,7 +68,7 @@
             <h2 class="major">Blogs</h2>
             @foreach($blogs as $blog)
                 <p>{{ $blog->title }}</p>
-                <span class="image main"><img src="{{  url('storage/').'/'.$blog->image }}" alt="" /></span>
+                <span class="image main"><img src="{{  url('storage/api/public').'/'.$blog->image }}" alt="" /></span>
                 <label>{{ $blog->content }}</label>
                 <hr>
             @endforeach

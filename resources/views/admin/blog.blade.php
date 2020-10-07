@@ -15,8 +15,9 @@
             <label>Titulo</label>
             <input name="title" class="form-control">
         </div>
-        <div class="col-lg-4">
-            <input type="file" name="image">
+        <div class="form-group custom-file col-lg-4">
+            <input name="image" type="file" class="custom-file-input form-control" id="customFile">
+            <label class="custom-file-label" for="customFile">Imagem</label>
         </div>
         <div class="col-lg-4"></div>
         <div class="col-lg-8 form-group">
@@ -31,6 +32,7 @@
     <div class="col-lg-12">
         <hr>
     </div>
+
 @stop
 
 @section('js')

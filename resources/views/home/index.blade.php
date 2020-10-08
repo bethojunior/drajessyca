@@ -12,7 +12,7 @@
     <meta name="description" content="Dra Jessyca Martins" />
     <meta property="og:title" content="Dra Jessyca Martins" />
     <meta property="og:type" content="article" />
-    <meta property="og:url" content="Dra Jessyca Martins" />
+    <meta property="og:url" content="https://drajessycamartins.madgic.com.br" />
     <meta property="og:image" content="https://drajessycamartins.madgic.com.br/assets/images/logo/me.jpg" />
     <meta property="og:description" content="Dra Jessyca Martins" />
     <meta property="og:site_name" content="Dra Jessyca Martins" />
@@ -20,10 +20,8 @@
 </head>
 <body class="is-preload">
 
-<!-- Wrapper -->
 <div id="wrapper">
 
-    <!-- Header -->
     <header id="header">
         <div class="logo">
             <img style="    border-radius: 99vw;

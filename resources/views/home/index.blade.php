@@ -44,11 +44,11 @@
         <nav>
             <ul>
                 <li><a href="#intro">Incio</a></li>
-                <li><a href="#work">Agende</a></li>
                 <li><a href="#about">Sobre</a></li>
-                <li><a href="#contact">Contato</a></li>
-{{--                <li><a href="#elements">elementos</a></li>--}}
+                <li><a href="#work">Agende</a></li>
                 <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contato</a></li>
+                {{--                <li><a href="#elements">elementos</a></li>--}}
             </ul>
         </nav>
     </header>
@@ -66,7 +66,7 @@
 
         <!-- Work -->
         <article id="work">
-            <h2 class="major">Agende um atendimento</h2>
+            <h2 class="major">Agendamentos</h2>
             <span class="image main"><img src="images/pic02.jpg" alt="" /></span>
             <p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
             <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>

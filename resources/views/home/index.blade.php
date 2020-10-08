@@ -42,11 +42,10 @@
         <nav>
             <ul>
                 <li><a href="#intro">Incio</a></li>
-                <li><a href="#about">Sobre</a></li>
+                <li><a href="#about">Especialidades</a></li>
                 <li><a href="#work">Agende</a></li>
                 <li><a href="#blog">Blog</a></li>
                 <li><a href="#contact">Contato</a></li>
-                {{--                <li><a href="#elements">elementos</a></li>--}}
             </ul>
         </nav>
     </header>
@@ -83,7 +82,7 @@
         </article>
         <!-- About -->
         <article id="about">
-            <h2 class="major">Sobre mim</h2>
+            <h2 class="major">Especialidades</h2>
             <span class="image main"><img src="images/pic03.jpg" alt="" /></span>
             <p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
         </article>

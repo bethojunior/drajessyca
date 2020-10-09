@@ -66,8 +66,32 @@
         <article id="work">
             <h2 class="major">Agendamentos</h2>
             <span class="image main"><img src="images/pic02.jpg" alt="" /></span>
-            <p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
-            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
+            <p>
+                <label>Local</label>
+                <select>
+                    <option>Juazeiro</option>
+                    <option>Barbalha</option>
+                </select>
+            </p>
+            <p>
+                <label>Tipo de atendimento</label>
+                <select>
+                    <option>Dermatologia</option>
+                    <option>Nutrologia</option>
+                </select>
+            </p>
+            <p>
+                <label>Nome do paciente</label>
+                <input type="text">
+            </p>
+            <p>
+                <label>Contato</label>
+                <input type="text">
+            </p>
+            <p>
+                <input id="schedule" type="button" value="Verificar disponibilidade" class="primary" />
+            </p>
+
         </article>
 
         <!-- Blog -->
@@ -382,6 +406,9 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 <script src="{{ asset('js/breakpoints.min.js') }}"></script>
 <script src="{{ asset('js/util.js') }}"></script>
 <script src="{{ asset('js/main.js') }}"></script>
+<script src="{{ asset('js/utils/ElementProperty.js') }}"></script>
+<script src="{{ asset('js/libs/sweetalertmin.js') }}"></script>
+<script src="{{ asset('js/modules/home/init.js') }}"></script>
 
 </body>
 </html>

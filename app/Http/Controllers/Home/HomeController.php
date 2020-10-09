@@ -20,6 +20,6 @@ class HomeController extends Controller
         $info = $infoService->findAll();
         $blogs = $blogService->getAll();
         return view('home.index')
-            ->with(['blogs' => $blogs,'info' => $info[0]]);
+            ->with(['blogs' => $blogs,'info' => $info]);
     }
 }

@@ -6,7 +6,6 @@
 @section('content_header')
     <h1 class="m-0 text-dark">Info</h1>
 @stop
-
 @section('content')
     @include('includes.alerts')
         <form class="row col-lg-12" method="POST" enctype="multipart/form-data" action="{{route('info.create')}}">

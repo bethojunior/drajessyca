@@ -30,7 +30,7 @@
         <div class="content">
             <div class="inner">
                 <h1 class="default-color">Dra Jessyca Martins</h1>
-                <p style="color: white">
+                <p style="">
                     Médica<br>
                     CREMEC 17858/ CRM PB 10409<br>
                     Estética avançada<br>
@@ -365,7 +365,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
     <!-- Footer -->
     <footer id="footer">
-        <p class="copyright">&copy; Madgic. Design: <a href="https://madgic.com.br">Madgic</a>.</p>
+        <p class="copyright default-color">&copy; Madgic. Design: <a href="https://madgic.com.br">Madgic</a>.</p>
     </footer>
 
 </div>

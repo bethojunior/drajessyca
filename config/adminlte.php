@@ -216,13 +216,8 @@ return [
             'topnav' => true,
         ],
         [
-            'text'        => 'Dashboard',
-            'url'         => 'home',
-            'icon'        => 'fas fa-fw fa-home',
-        ],
-        [
             'text'        => 'Sobre',
-            'url'         => '#',
+            'url'         => 'home/about',
             'icon'        => 'fas fa-fw fa-home',
         ],
         [

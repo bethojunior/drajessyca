@@ -27,7 +27,7 @@ class InfoService
     public function findAll()
     {
         return $this->repository
-            ->all()->sortByDesc();
+            ->all()->sortDesc();
     }
 
 

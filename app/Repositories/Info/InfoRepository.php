@@ -14,4 +14,6 @@ class InfoRepository extends AbstractRepository
         $this->setModel(Info::class);
     }
 
+
+
 }

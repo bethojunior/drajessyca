@@ -21,7 +21,6 @@
 <body class="is-preload">
 
 <div id="wrapper">
-
     <header id="header">
         <div class="logo">
             <img style="    border-radius: 99vw;
@@ -30,12 +29,13 @@
         </div>
         <div class="content">
             <div class="inner">
-                <h1>Dra Jessyca Martins</h1>
-                <p>
-                    Apaixonada por Dermatologia 🔎❣️<br>
-                    ⚜️ Estética Avançada 💉<br>
-                    ⚜️Nutrologia~ABRAN<br />
-                    CE | SP | PE ✈️📚
+                <h1 class="default-color">Dra Jessyca Martins</h1>
+                <p style="color: white">
+                    Médica<br>
+                    CREMEC 17858/ CRM PB 10409<br>
+                    Estética avançada<br>
+                    Dermatologia<br>
+                    Nutrologia<br>
                 </p>
             </div>
         </div>

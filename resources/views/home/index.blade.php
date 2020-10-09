@@ -43,7 +43,7 @@
             <ul>
                 <li><a href="#intro">Incio</a></li>
                 <li><a href="#about">Especialidades</a></li>
-                <li><a href="#work">Agende</a></li>
+                <li><a href="#work">Agenda</a></li>
                 <li><a href="#blog">Blog</a></li>
                 <li><a href="#contact">Contato</a></li>
             </ul>

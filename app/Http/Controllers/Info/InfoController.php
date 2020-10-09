@@ -27,7 +27,7 @@ class InfoController extends Controller
     {
         $infos = $this->service
             ->findAll();
-        return view('admin.info')->with(['infos' => $infos[0]]);
+        return view('admin.info')->with(['infos' => $infos]);
     }
 
     public function insert(Request $request)

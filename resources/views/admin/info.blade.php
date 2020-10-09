@@ -14,13 +14,13 @@
             <div class="col-lg-12">
                 <div class="form-group col-lg-6 col-sm-12">
                     <span>Página inicial</span>
-                    <textarea name="home" class="form-control col-lg-12" placeholder="{{ $infos->home }}"></textarea>
+                    <textarea name="home" class="form-control col-lg-12" ></textarea>
                 </div>
             </div>
             <div class="col-lg-12">
                 <div class="form-group col-lg-6 col-sm-12">
                     <span>Especialidades</span>
-                    <textarea name="about" class="form-control col-lg-12" placeholder="{{ $infos->about }}"></textarea>
+                    <textarea name="about" class="form-control col-lg-12" ></textarea>
                 </div>
             </div>
             <div class="col-lg-12">

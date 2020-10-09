@@ -70,7 +70,7 @@
                 <label>Local</label>
                 <select id="local">
                     <option value="Juazeiro">Juazeiro</option>
-                    <option value="Barbalha">Barbalha</option>
+                    <option value="Brejo Santo">Brejo Santo</option>
                 </select>
             </p>
             <p>

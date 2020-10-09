@@ -68,25 +68,25 @@
             <span class="image main"><img src="images/pic02.jpg" alt="" /></span>
             <p>
                 <label>Local</label>
-                <select>
-                    <option>Juazeiro</option>
-                    <option>Barbalha</option>
+                <select id="local">
+                    <option value="Juazeiro">Juazeiro</option>
+                    <option value="Barbalha">Barbalha</option>
                 </select>
             </p>
             <p>
                 <label>Tipo de atendimento</label>
-                <select>
-                    <option>Dermatologia</option>
-                    <option>Nutrologia</option>
+                <select id="type">
+                    <option value="Dermatologia">Dermatologia</option>
+                    <option type="Nutrologia">Nutrologia</option>
                 </select>
             </p>
             <p>
                 <label>Nome do paciente</label>
-                <input type="text">
+                <input id="name" type="text">
             </p>
             <p>
                 <label>Contato</label>
-                <input type="text">
+                <input id="contactUser" type="text">
             </p>
             <p>
                 <input id="schedule" type="button" value="Verificar disponibilidade" class="primary" />
@@ -408,6 +408,13 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 <script src="{{ asset('js/main.js') }}"></script>
 <script src="{{ asset('js/utils/ElementProperty.js') }}"></script>
 <script src="{{ asset('js/libs/sweetalertmin.js') }}"></script>
+
+
+
+<script src="{{ asset('config/main.js') }}"></script>
+<script src="{{ asset('js/utils/SwalCustom.js') }}"></script>
+<script src="{{ asset('js/service/ConnectionServer.js') }}"></script>
+<script src="{{ asset('js/controllers/Home/HomeController.js') }}"></script>
 <script src="{{ asset('js/modules/home/init.js') }}"></script>
 
 </body>

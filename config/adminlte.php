@@ -216,10 +216,16 @@ return [
             'topnav' => true,
         ],
         [
-            'text'        => 'Sobre',
+            'text'        => 'Agendamentos',
+            'url'         => 'home/schedule',
+            'icon'        => 'fas fa-fw fa-home',
+        ],
+        [
+            'text'        => 'Dados do site',
             'url'         => 'home/about',
             'icon'        => 'fas fa-fw fa-home',
         ],
+
         [
             'text'        => 'Blog',
             'icon'        => 'fas fa-fw fa-blog',

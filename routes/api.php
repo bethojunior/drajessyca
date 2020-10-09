@@ -20,3 +20,10 @@ Route::group(['prefix' => 'blog'], function () {
     });
 });
 
+Route::group(['prefix' => 'schedule'], function () {
+    Route::group(['as' => 'schedule'], function () {
+        Route::post('', 'Schedule\ScheduleController@create')->name('.create');
+        Route::post('updateStatus', 'Schedule\ScheduleController@edit')->name('.edit');
+    });
+});
+

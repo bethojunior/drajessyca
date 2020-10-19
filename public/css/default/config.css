@@ -52,10 +52,4 @@ tr{
     justify-content: center!important;
     align-content: center!important;
 }
-@media (min-width: 992px){
-    .sidebar-mini .nav-sidebar, .sidebar-mini .nav-sidebar .nav-link, .sidebar-mini .nav-sidebar>.nav-header {
-        white-space: inherit!important;
-        overflow: hidden;
-    }
-}
 

@@ -19,7 +19,7 @@ class HomeController extends Controller
         $user = Auth::user();
         $info = $infoService->findAll();
         $blogs = $blogService->getAll();
-        return view('home.index')
+        return view('home.default')
             ->with(['blogs' => $blogs,'info' => $info]);
     }
 }

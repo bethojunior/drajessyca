@@ -1,0 +1,29 @@
+nav{
+    background-color: #e1dad5!important;
+    margin-bottom: 0.2vw;
+    height: auto!important;
+    padding-top: 2vw!important;
+    color: black;
+}
+.header-nav{
+    background-color: #a34863;
+    color: whitesmoke;
+    padding-top: 0.6vw;
+    padding-bottom: 0.6vw;
+    font-size: 1.3vh;
+}
+.tabs.tabs-transparent .indicator{
+    background-color: #a34863;
+}
+.tabs.tabs-transparent .tab a:hover, .tabs.tabs-transparent .tab a.active {
+    color: #a34863;
+}
+.tabs.tabs-transparent .tab a:hover, .tabs.tabs-transparent .tab a {
+    color: #29201f;
+}
+
+@media screen and (max-width: 992px) {
+    #nav-slide{
+        display: none;
+    }
+}

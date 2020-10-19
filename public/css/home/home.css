@@ -1,0 +1,6 @@
+body{
+    background-color: var(--main-color);
+}
+.content{
+    margin-left: 5vw;
+}

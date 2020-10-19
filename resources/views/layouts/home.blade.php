@@ -7,7 +7,7 @@
 
 <meta charset="utf-8" />
 <meta name="theme-color" content="#D3CBC8">
-<link rel="icon" href="{{ asset('assets/images/logo/me.jpg') }}">
+<link rel="icon" href="{{ asset('assets/images/logo/logo.png') }}">
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 
 

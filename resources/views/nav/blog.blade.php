@@ -1,4 +1,4 @@
-@include('layouts.home')
+
 
 <title>Dra Jessyca Martins - Blog</title>
 

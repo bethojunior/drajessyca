@@ -4,7 +4,7 @@
 
 <div class="content row col-lg-12">
     @foreach($blogs as $blog)
-        <div class="col s12 l4">
+        <div class="col s12 l3">
             <div class="card">
                 <div class="card-image">
                     <img src="{{ url('storage/api/public').'/'.$blog->image }}">

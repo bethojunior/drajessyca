@@ -19,7 +19,7 @@
         <ul class="tabs tabs-transparent center">
             <li class="tab"><a class="active" href="#home">Home</a></li>
             <li class="tab"><a href="#test2">Sobre mim</a></li>
-            <li class="tab">
+            <li class="tab zindex">
                 <img src="http://dratallitadermatologista.com.br/images/dra-tallita-logo-home.png">
             </li>
             <li class="tab"><a href="#test3">Tratamentos</a></li>

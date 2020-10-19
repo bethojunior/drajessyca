@@ -12,6 +12,16 @@ nav{
     padding-bottom: 0.6vw;
     font-size: 1.3vh;
 }
+.tabs {
+    position: relative;
+    overflow-x: unset;
+    overflow-y: unset;
+    height: 48px;
+    width: 100%;
+    background-color: #fff;
+    margin: 0 auto;
+    white-space: nowrap;
+}
 .tabs.tabs-transparent .indicator{
     background-color: #a34863;
 }

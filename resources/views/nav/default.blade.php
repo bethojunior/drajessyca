@@ -20,7 +20,7 @@
             <li class="tab"><a class="tab-navigation active" href="#home">Home</a></li>
             <li class="tab"><a class="tab-navigation" href="#test2">Sobre mim</a></li>
             <li class="tab zindex">
-                <img src="http://dratallitadermatologista.com.br/images/dra-tallita-logo-home.png">
+                <img src="{{ asset('assets/images/logo/logo.png') }}">
             </li>
             <li class="tab"><a class="tab-navigation" href="#test3">Tratamentos</a></li>
             <li class="tab"><a class="tab-navigation" id="go-blog" href="#pageBlog">Blog</a></li>

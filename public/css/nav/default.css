@@ -31,7 +31,9 @@ nav{
 .tabs.tabs-transparent .tab a:hover, .tabs.tabs-transparent .tab a {
     color: #29201f!important;
 }
-
+.default-color{
+    color: #a34863!important;
+}
 @media screen and (max-width: 992px) {
     #nav-slide{
         display: none;

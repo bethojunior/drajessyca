@@ -1,6 +1,7 @@
 body{
-    background-color: var(--main-color);
+    background-color: whitesmoke;
 }
-.content{
-    margin-left: 5vw;
+.middle .row.col.l7{
+    margin-top: 3vw;
+    font-family: "Montserrat";
 }

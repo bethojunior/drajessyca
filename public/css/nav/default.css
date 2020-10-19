@@ -14,8 +14,8 @@ nav{
 }
 .tabs {
     position: relative;
-    overflow-x: unset;
-    overflow-y: unset;
+    overflow-x: unset!important;
+    overflow-y: unset!important;
     height: 48px;
     width: 100%;
     background-color: #fff;

@@ -8,6 +8,9 @@ body{
 .mobile-only{
     display: none;
 }
+.isMobileCenter{
+
+}
 @media screen and (max-width: 992px) {
     .mobile-only{
         display: block;

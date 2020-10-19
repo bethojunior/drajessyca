@@ -15,12 +15,12 @@
             <img class="responsive-img" src="{{ asset('assets/images/dra1.jpg') }}">
         </div>
         <div class="col l8 s12">
-            <span class="" style="font-size: 4vh; font-family: 'Raleway'">Dra Jessyca Martins</span><br>
-            <span>
+            <span class="isMobileCenter" style="font-size: 4vh; font-family: 'Raleway'">Dra Jessyca Martins</span><br>
+            <span class="isMobileCenter">
                 Estética avançada | Dermatologia | Nutrologia
             </span>
             <hr>
-            <span class="default-color">
+            <span class="default-color isMobileCenter">
                 Esse site tem o objetivo de fornecer informações sobre os cuidados diários com a pele e esclarecer dúvidas sobre os principais tratamentos disponíveis atualmente na medicina estética no Brasil e no mundo. Boa leitura!
             </span>
         </div>

@@ -28,4 +28,59 @@
     <div class="col l3 s12">&nbsp</div>
 </div>
 
+<div class="row col l12 s12 middle-two">
+    <div class="center">
+        <span><h4 style="color: white">Serviços</h4></span>
+    </div>
+    <div class="col l3"></div>
+    <div class="col l9 s12">
+        <div class="col s12 l2">
+            <div class="card">
+                <div class="card-image">
+                    <img src="http://dratallitadermatologista.com.br/images/patologias-da-pele-1.jpg">
+                    <span class="card-title">Card Title</span>
+                </div>
+                <div class="card-body">
+
+                </div>
+            </div>
+        </div>
+        <div class="col s12 l2">
+            <div class="card">
+                <div class="card-image">
+                    <img src="http://dratallitadermatologista.com.br/images/patologias-da-pele-1.jpg">
+                    <span class="card-title">Card Title</span>
+                </div>
+                <div class="card-body">
+
+                </div>
+            </div>
+        </div>
+        <div class="col s12 l2">
+            <div class="card">
+                <div class="card-image">
+                    <img src="http://dratallitadermatologista.com.br/images/patologias-da-pele-1.jpg">
+                    <span class="card-title">Card Title</span>
+                </div>
+                <div class="card-body">
+
+                </div>
+            </div>
+        </div>
+        <div class="col s12 l2">
+            <div class="card">
+                <div class="card-image">
+                    <img src="http://dratallitadermatologista.com.br/images/patologias-da-pele-1.jpg">
+                    <span class="card-title">Card Title</span>
+                </div>
+                <div class="card-body">
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="col l3"></div>
+</div>
+
 <script src="{{ asset('js/modules/home/init.js') }}"></script>

@@ -32,4 +32,6 @@
 </div>
 <div id="test2" class="">Test 2</div>
 <div id="test3" class="">Test 3</div>
-<div id="test4" class="">Test 4</div>
+<div id="test4" class="">
+    @include('nav.blog')
+</div>

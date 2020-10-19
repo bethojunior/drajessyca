@@ -3,14 +3,14 @@ nav{
     margin-bottom: 0.2vw;
     height: auto!important;
     padding-top: 2vw!important;
-    color: black;
+    color: black!important;
 }
 .header-nav{
-    background-color: #a34863;
-    color: whitesmoke;
-    padding-top: 0.6vw;
-    padding-bottom: 0.6vw;
-    font-size: 1.3vh;
+    background-color: #a34863!important;
+    color: whitesmoke!important;
+    padding-top: 0.6vw!important;
+    padding-bottom: 0.6vw!important;
+    font-size: 1.3vh!important;
 }
 .tabs {
     position: relative;
@@ -23,13 +23,13 @@ nav{
     white-space: nowrap;
 }
 .tabs.tabs-transparent .indicator{
-    background-color: #a34863;
+    background-color: #a34863!important;
 }
 .tabs.tabs-transparent .tab a:hover, .tabs.tabs-transparent .tab a.active {
-    color: #a34863;
+    color: #a34863!important;
 }
 .tabs.tabs-transparent .tab a:hover, .tabs.tabs-transparent .tab a {
-    color: #29201f;
+    color: #29201f!important;
 }
 
 @media screen and (max-width: 992px) {

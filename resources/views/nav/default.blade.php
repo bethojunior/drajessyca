@@ -3,7 +3,9 @@
 </header>
 <nav class="nav-extended">
     <div class="nav-wrapper mobile-only">
-        <a href="#" class="brand-logo ">Logo</a>
+        <a href="#" class="brand-logo ">
+            <img class="col s12 " src="{{ asset('assets/images/logo/logo.png') }}">
+        </a>
         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
             <li><a href="sass.html">Contato</a></li>

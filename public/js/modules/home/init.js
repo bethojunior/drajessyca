@@ -1,5 +1,6 @@
 $(".button-collapse").sideNav();
 $('.carousel.carousel-slider').carousel({fullWidth: true});
+setInterval( () =>{ $('.carousel').carousel('next', 3);} , 6000)
 
 elementProperty.getElement('.tab-item',tabs => {
     if(tabs.classList.contains('s12'))

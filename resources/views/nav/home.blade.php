@@ -9,10 +9,10 @@
 </div>
 
 <div class="middle">
-    <div class="col l3">&nbsp;</div>
+    <div class="col l3 s12">&nbsp</div>
     <div class="row col l7">
         <div class="col l4 s12">
-            <img class="col l12 s12" src="{{ asset('assets/images/dra1.jpg') }}">
+            <img class="responsive-img" src="{{ asset('assets/images/dra1.jpg') }}">
         </div>
         <div class="col l8 s12">
             <span class="" style="font-size: 4vh; font-family: 'Raleway'">Dra Jessyca Martins</span><br>
@@ -25,7 +25,7 @@
             </span>
         </div>
     </div>
-    <div class="col l3">&nbsp;</div>
+    <div class="col l3 s12">&nbsp</div>
 </div>
 
 <script src="{{ asset('js/modules/home/init.js') }}"></script>

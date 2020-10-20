@@ -1,0 +1,14 @@
+.row.col.l12.s12.blog{
+    margin-top: 3vw;
+}
+.row.col.l12.s12.blog .row.col.l10.s12.container{
+    background-color: white;
+    border-radius: 0.2vw;
+}
+.row.col.l12.s12.blog .row.col.l10.s12.container .card.row.col.l12.s12{
+    background-color: #F6F3F1;
+    cursor: pointer;
+}
+.row.col.l12.s12.blog .row.col.l10.s12.container .card.row.col.l12.s12 .row.col.l12.s12.content{
+    margin-top: 2vw;
+}

@@ -12,7 +12,7 @@
     <div class="row col-lg-12">
         @foreach($blogs as $blog)
             <div class="card ml-2 blog{{$blog->id}}" style="width: 18rem;">
-                <img  class="card-img-top"  src="{{  url('storage/api/public').'/'.$blog->image }}">
+                <img  class="card-img-top"  src="{{  url('storage').'/'.$blog->image }}">
                 <div class="card-body">
                     <h5 class="card-title">{{ $blog->title }}</h5>
                     <p class="card-text">{{ substr($blog->content,0,400) }} ...</p>

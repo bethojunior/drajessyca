@@ -221,6 +221,11 @@ return [
             'icon'        => 'fas fa-fw fa-home',
         ],
         [
+            'text'        => 'Slide',
+            'url'         => 'home/slide',
+            'icon'        => 'fas fa-fw fa-home',
+        ],
+        [
             'text'        => 'Dados do site',
             'url'         => 'home/about',
             'icon'        => 'fas fa-fw fa-home',

@@ -16,6 +16,8 @@ Route::group(['prefix' => 'home'], function () {
         Route::get('listBlog', 'Blog\BlogController@index')->name('.listBlog');
         Route::get('about', 'Info\InfoController@index')->name('.about');
         Route::get('schedule', 'Schedule\ScheduleController@index')->name('.schedule');
+        Route::get('slide', 'Slide\SlideController@index')->name('.indexSlider');
+        Route::post('createSlide', 'Slide\SlideController@create')->name('.createSlider');
     });
 });
 

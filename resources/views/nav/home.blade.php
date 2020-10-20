@@ -2,10 +2,10 @@
 <link rel="stylesheet" href="{{ asset('css/home/home.css') }}">
 
 <div class="col l12 s12 carousel carousel-slider">
-    <a class="carousel-item" href="#one!"><img src="http://dratallitadermatologista.com.br/images/dra-tallita-home-2.jpg"></a>
-    <a class="carousel-item" href="#two!"><img src="http://dratallitadermatologista.com.br/images/dra-tallita-home-2.jpg"></a>
-    <a class="carousel-item" href="#three!"><img src="http://dratallitadermatologista.com.br/images/dra-tallita-home-2.jpg"></a>
-    <a class="carousel-item" href="#four!"><img src="http://dratallitadermatologista.com.br/images/dra-tallita-home-2.jpg"></a>
+    <a class="carousel-item" href="#one!"><img src="{{ asset('assets/images/carousel/estetica-holistica.jpg') }}"></a>
+    <a class="carousel-item" href="#two!"><img src="{{ asset('assets/images/carousel/estetica-holistica.jpg') }}"></a>
+    <a class="carousel-item" href="#three!"><img src="{{ asset('assets/images/carousel/estetica-holistica.jpg') }}"></a>
+    <a class="carousel-item" href="#four!"><img src="{{ asset('assets/images/carousel/estetica-holistica.jpg') }}"></a>
 </div>
 
 <div class="middle">

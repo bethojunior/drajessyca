@@ -32,6 +32,29 @@ elementProperty.addEventInElement('#open-blog','onclick',function () {
     })
 })
 
+
+elementProperty.addEventInElement('#open-about','onclick',function () {
+    let that = this;
+    $(".button-collapse").sideNav('hide');
+    elementProperty.getElement('.tab-navigation',tab => {
+        if(tab.classList.contains('active')) {
+            tab.classList.remove('active')
+            that.classList.add('active')
+        }
+    })
+
+    elementProperty.getElement('.tab-pages',pages => {
+        if(pages.classList.contains('active')) {
+            pages.classList.remove('active')
+            pages.style.display = 'none';
+            elementProperty.getElement('#pageAbout', blog => {
+                blog.classList.add('active');
+                blog.style.display = '';
+            })
+        }
+    })
+})
+
 if(isMobile.any){
     elementProperty.getElement('.isMobileCenter',element => {
         element.classList.add('center');

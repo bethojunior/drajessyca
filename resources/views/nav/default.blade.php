@@ -20,7 +20,7 @@
     <div class="nav-content" id="nav-slide">
         <ul class="tabs tabs-transparent center">
             <li class="tab"><a class="tab-navigation active" href="#home">Home</a></li>
-            <li class="tab"><a class="tab-navigation" href="#test2">Sobre mim</a></li>
+            <li class="tab"><a class="tab-navigation" id="go-about" href="#about">A médica</a></li>
             <li class="tab zindex">
                 <img src="{{ asset('assets/images/logo/logo.png') }}">
             </li>
@@ -32,8 +32,11 @@
 <div id="home" class="tab-pages">
     @include('nav.home')
 </div>
-<div id="test2" class="tab-pages">Test 2</div>
+<div id="pageAbout" class="tab-pages">
+    @include('nav.about')
+</div>
 <div id="test3" class="tab-pages">Test 3</div>
 <div id="pageBlog" class="tab-pages">
+{{--    @include('nav.blog')--}}
     @include('nav.blog')
 </div>

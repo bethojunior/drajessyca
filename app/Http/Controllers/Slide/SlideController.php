@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Slide;
 
 use App\Http\Controllers\Controller;
+use App\Http\Responses\ApiResponse;
 use App\Services\Slide\SlideService;
 use Illuminate\Http\Request;
 
@@ -38,6 +39,10 @@ class SlideController extends Controller
             ->getAll();
     }
 
+    /**
+     * @param Request $request
+     * @return \Illuminate\Http\RedirectResponse
+     */
     public function create(Request $request)
     {
         try{
@@ -51,9 +56,19 @@ class SlideController extends Controller
             ->with('success', 'Blog inserido com sucesso');
     }
 
-
-    public function destroy($id)
+    /**
+     * @param $id
+     * @return \Illuminate\Http\JsonResponse
+     */
+    public function delete($id)
     {
-        //
+        try{
+            $response = $this->service
+                ->delete($id);
+        }catch (\Exception $exception){
+            return ApiResponse::error('',$exception->getMessage());
+        }
+
+        return ApiResponse::success($response,'Slide excluido com sucesso');
     }
 }

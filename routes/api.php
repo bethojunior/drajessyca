@@ -20,6 +20,12 @@ Route::group(['prefix' => 'blog'], function () {
     });
 });
 
+Route::group(['prefix' => 'slide'], function () {
+    Route::group(['as' => 'slide'], function () {
+        Route::delete('{id}', 'Slide\SlideController@delete')->name('.delete');
+    });
+});
+
 Route::group(['prefix' => 'schedule'], function () {
     Route::group(['as' => 'schedule'], function () {
         Route::post('', 'Schedule\ScheduleController@create')->name('.create');

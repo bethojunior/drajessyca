@@ -2,10 +2,12 @@
 <link rel="stylesheet" href="{{ asset('css/home/home.css') }}">
 
 <div class="col l12 s12 carousel carousel-slider">
-    <a class="carousel-item" href="#one!"><img src="{{ asset('assets/images/carousel/estetica-holistica.jpg') }}"></a>
-    <a class="carousel-item" href="#two!"><img src="{{ asset('assets/images/carousel/estetica-holistica.jpg') }}"></a>
-    <a class="carousel-item" href="#three!"><img src="{{ asset('assets/images/carousel/estetica-holistica.jpg') }}"></a>
-    <a class="carousel-item" href="#four!"><img src="{{ asset('assets/images/carousel/estetica-holistica.jpg') }}"></a>
+    @foreach($slides as $slide)
+        <a class="carousel-item">
+            <img src="{{  url('storage/').'/'.$slide->image }}">
+        </a>
+    @endforeach
+
 </div>
 
 <div class="middle">

@@ -1,6 +1,6 @@
 @extends('layouts.page')
 @section('css')
-    {{--    <link rel="stylesheet" href="{{ asset('css/home/init.css') }}">--}}
+        <link rel="stylesheet" href="{{ asset('css/slide/index.css') }}">
 @endsection
 @section('title', 'Painel ')
 @section('content_header')
@@ -23,13 +23,21 @@
 
     <hr>
 
-    @foreach($slides as $slide)
-        <img src="{{  url('storage/api/public').'/'.$slide->image }}">
-    @endforeach
+    <div class="row col-lg-12">
+        @foreach($slides as $slide)
+            <div class="card slide{{$slide->id}}" style="width: 18rem;">
+                <img src="{{  url('storage/').'/'.$slide->image }}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <a id="{{ $slide->id }}" class="btn btn-danger delete-slide">Apagar</a>
+                </div>
+            </div>
+        @endforeach
+    </div>
+
 @stop
 
 @section('js')
-    <script src="{{ asset('js/controllers/Schedule/ScheduleController.js') }}"></script>
-    <script src="{{ asset('js/modules/schedule/init.js') }}"></script>
+    <script src="{{ asset('js/controllers/Slide/SlideController.js') }}"></script>
+    <script src="{{ asset('js/modules/slide.js') }}"></script>
 @endsection
 

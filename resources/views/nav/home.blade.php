@@ -21,7 +21,7 @@
             </span>
             <div class="divider"></div>
             <span class="default-color isMobileCenter">
-                Esse site tem o objetivo de fornecer informações sobre os cuidados diários com a pele e esclarecer dúvidas sobre os principais tratamentos disponíveis atualmente na medicina estética no Brasil e no mundo. Boa leitura!
+                {{ $info->home }}
             </span>
         </div>
     </div>

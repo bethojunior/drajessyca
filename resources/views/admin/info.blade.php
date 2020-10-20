@@ -18,7 +18,7 @@
             </div>
             <div class="col-lg-12">
                 <div class="form-group col-lg-6 col-sm-12">
-                    <span>Especialidades</span>
+                    <span>Sobre mim</span>
                     <textarea name="about" class="form-control col-lg-12" placeholder="{{ $infos->about }}"></textarea>
                 </div>
             </div>

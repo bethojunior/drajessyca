@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="{{ asset('css/agenda/index.css') }}" />
 <div class="row col l12 s12 agenda">
     <div class="row">
         <form class="col s12">

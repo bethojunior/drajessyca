@@ -11,10 +11,7 @@
             <li><a href="sass.html">Contato</a></li>
         </ul>
         <ul class="side-nav" id="mobile-demo">
-{{--            <li><a href="/">Home</a></li>--}}
-{{--            <li><a id="open-about">Sobre mim</a></li>--}}
-{{--            <li><a id="open-agenda">Agenda</a></li>--}}
-{{--            <li><a id="open-blog">Blog</a></li>--}}
+
             <li><div class="user-view">
                     <div class="background">
                         <img src="{{ asset('assets/images/middle_ground.jpg') }}">

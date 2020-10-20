@@ -37,7 +37,7 @@
         <div class="col s12 l3">
             <div class="card">
                 <div class="card-image">
-                    <img src="http://dratallitadermatologista.com.br/images/patologias-da-pele-1.jpg">
+                    <img src="{{ asset('assets/images/servicos/toxinabuolinica.jpg') }}">
                     <span class="card-title">Toxina botulina</span>
                 </div>
                 <div class="card-body center">
@@ -52,7 +52,7 @@
         <div class="col s12 l3">
             <div class="card">
                 <div class="card-image">
-                    <img src="http://dratallitadermatologista.com.br/images/patologias-da-pele-1.jpg">
+                    <img src="{{ asset('assets/images/servicos/preenchimento.jpg') }}">
                     <span class="card-title">Preenchimentos</span>
                 </div>
                 <div class="card-body center">
@@ -67,7 +67,7 @@
         <div class="col s12 l3">
             <div class="card">
                 <div class="card-image">
-                    <img src="http://dratallitadermatologista.com.br/images/patologias-da-pele-1.jpg">
+                    <img src="{{ asset('assets/images/servicos/colageno.jpg') }}">
                     <span class="card-title">Bioestimuladores de colágeno</span>
                 </div>
                 <div class="card-body center">
@@ -82,7 +82,7 @@
         <div class="col s12 l3">
             <div class="card">
                 <div class="card-image">
-                    <img src="http://dratallitadermatologista.com.br/images/patologias-da-pele-1.jpg">
+                    <img src="{{ asset('assets/images/servicos/fios-de-pdo-capa-2.jpg') }}">
                     <span class="card-title">Fios</span>
                 </div>
                 <div class="card-body center">

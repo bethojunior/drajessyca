@@ -11,7 +11,20 @@
             <li><a href="sass.html">Contato</a></li>
         </ul>
         <ul class="side-nav" id="mobile-demo">
+{{--            <li><a href="/">Home</a></li>--}}
+{{--            <li><a id="open-about">Sobre mim</a></li>--}}
+{{--            <li><a id="open-agenda">Agenda</a></li>--}}
+{{--            <li><a id="open-blog">Blog</a></li>--}}
+            <li><div class="user-view">
+                    <div class="background">
+                        <img src="{{ asset('assets/images/middle_ground.jpg') }}">
+                    </div>
+                    <a href="#!user"><img class="circle" src="{{ asset('assets/images/dra.png') }}"></a>
+                    <a href="#!name"><span class="white-text name">Dra Jessyka Martins</span></a>
+{{--                    <a href="#!email"><span class="white-text email">jdandturk@gmail.com</span></a>--}}
+                </div></li>
             <li><a href="/">Home</a></li>
+            <li><div class="divider"></div></li>
             <li><a id="open-about">Sobre mim</a></li>
             <li><a id="open-agenda">Agenda</a></li>
             <li><a id="open-blog">Blog</a></li>

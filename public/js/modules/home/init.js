@@ -3,6 +3,9 @@
 $('.parallax').parallax();
 $(".button-collapse").sideNav();
 $('.carousel.carousel-slider').carousel({fullWidth: true});
+$('ul.tabs').tabs();
+$('select').material_select();
+
 setInterval( () =>{ $('.carousel').carousel('next', 3);} , 6000)
 
 elementProperty.getElement('.tab-item',tabs => {
@@ -48,6 +51,28 @@ elementProperty.addEventInElement('#open-about','onclick',function () {
             pages.classList.remove('active')
             pages.style.display = 'none';
             elementProperty.getElement('#pageAbout', blog => {
+                blog.classList.add('active');
+                blog.style.display = '';
+            })
+        }
+    })
+})
+
+elementProperty.addEventInElement('#open-agenda','onclick',function () {
+    let that = this;
+    $(".button-collapse").sideNav('hide');
+    elementProperty.getElement('.tab-navigation',tab => {
+        if(tab.classList.contains('active')) {
+            tab.classList.remove('active')
+            that.classList.add('active')
+        }
+    })
+
+    elementProperty.getElement('.tab-pages',pages => {
+        if(pages.classList.contains('active')) {
+            pages.classList.remove('active')
+            pages.style.display = 'none';
+            elementProperty.getElement('#pageAgenda', blog => {
                 blog.classList.add('active');
                 blog.style.display = '';
             })

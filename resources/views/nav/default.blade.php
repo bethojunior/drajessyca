@@ -12,20 +12,20 @@
         </ul>
         <ul class="side-nav" id="mobile-demo">
             <li><a href="/">Home</a></li>
-            <li><a href="/">Sobre mim</a></li>
-            <li><a href="/">Tratamentos</a></li>
+            <li><a id="open-about">A MÉDICA</a></li>
+            <li><a id="open-agenda">Agenda</a></li>
             <li><a id="open-blog">Blog</a></li>
         </ul>
     </div>
     <div class="nav-content" id="nav-slide">
         <ul class="tabs tabs-transparent center">
             <li class="tab"><a class="tab-navigation active" href="#home">Home</a></li>
-            <li class="tab"><a class="tab-navigation" id="go-about" href="#about">A médica</a></li>
+            <li class="tab"><a class="tab-navigation" href="#pageAbout">A médica</a></li>
             <li class="tab zindex">
                 <img src="{{ asset('assets/images/logo/logo.png') }}">
             </li>
-            <li class="tab"><a class="tab-navigation" href="#test3">Tratamentos</a></li>
             <li class="tab"><a class="tab-navigation" id="go-blog" href="#pageBlog">Blog</a></li>
+            <li class="tab"><a class="tab-navigation" href="#pageAgenda">Agenda</a></li>
         </ul>
     </div>
 </nav>
@@ -35,8 +35,9 @@
 <div id="pageAbout" class="tab-pages">
     @include('nav.about')
 </div>
-<div id="test3" class="tab-pages">Test 3</div>
+<div id="pageAgenda" class="tab-pages">
+    @include('nav.agenda')
+</div>
 <div id="pageBlog" class="tab-pages">
-{{--    @include('nav.blog')--}}
     @include('nav.blog')
 </div>

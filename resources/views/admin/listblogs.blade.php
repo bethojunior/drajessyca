@@ -15,7 +15,7 @@
                 <img  class="card-img-top"  src="{{  url('storage/api/public').'/'.$blog->image }}">
                 <div class="card-body">
                     <h5 class="card-title">{{ $blog->title }}</h5>
-                    <p class="card-text">{{ $blog->content }}</p>
+                    <p class="card-text">{{ substr($blog->content,0,400) }} ...</p>
                     <a id="{{ $blog->id }}" href="#" class="btn btn-danger delete-blog">Apagar</a>
                 </div>
             </div>

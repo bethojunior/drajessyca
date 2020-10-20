@@ -12,7 +12,7 @@
                 </div>
                 <div class="card-content">
                     <p>
-                        {{ $blog->content }}
+                        {{ substr($blog->content,0,400) }} ...
                     </p>
                 </div>
                 <div class="card-action">

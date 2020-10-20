@@ -4,7 +4,7 @@ use Illuminate\Database\Seeder;
 
 class InfoSeeder extends Seeder
 {
-    /**suporte@fabrica704.com.br
+    /**
      * Run the database seeds.
      *
      * @return void
@@ -13,7 +13,7 @@ class InfoSeeder extends Seeder
     {
         DB::table('infos')->insert([
             [
-                'home' => 'Página inicial',
+                'home' => 'Texto para a tela incial',
                 'about' => 'Sobre mim',
             ],
         ]);

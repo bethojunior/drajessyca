@@ -1,6 +1,5 @@
 nav{
     background-color: #D6C6C6!important;
-    margin-bottom: 0.2vw;
     height: auto!important;
     padding-top: 2vw!important;
     color: black!important;
@@ -10,6 +9,7 @@ nav{
     background-color: #ba7c8e!important;
     color: whitesmoke!important;
     padding-top: 0.6vw!important;
+    padding-bottom: 0.6vw!important;
     font-size: 1.3vh!important;
 }
 .tabs {

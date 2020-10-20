@@ -32,3 +32,19 @@ body{
     max-width: 100%;
     padding: 24px;
 }
+
+
+@media screen and (max-width: 992px) {
+    .col.l12.s12.carousel.carousel-slider.initialized {
+        margin-top: 0 !important;
+    }
+
+    .middle{
+        margin-top: 0!important;
+    }
+
+    .middle .row.col.l7{
+        margin-top: 1vw;
+        font-family: "Montserrat";
+    }
+}

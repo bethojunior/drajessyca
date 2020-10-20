@@ -4,6 +4,7 @@ nav{
     height: auto!important;
     padding-top: 2vw!important;
     color: black!important;
+
 }
 .header-nav{
     background-color: #ba7c8e!important;
@@ -38,4 +39,10 @@ nav{
     #nav-slide{
         display: none;
     }
+}
+
+
+.z-depth-1, nav, .card-panel, .card, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, .collapsible, .side-nav{
+    box-shadow: transparent!important;
+    -webkit-box-shadow: transparent!important;
 }

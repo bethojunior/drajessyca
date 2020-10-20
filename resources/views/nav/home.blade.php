@@ -9,7 +9,7 @@
 </div>
 
 <div class="middle">
-    <div class="col l3 s12">&nbsp</div>
+    <div class="col l3 s12"></div>
     <div class="row col l7">
         <div class="col l4 s12">
             <img class="responsive-img" src="{{ asset('assets/images/dra.png') }}">
@@ -19,7 +19,7 @@
             <span class="isMobileCenter">
                 Estética avançada | Dermatologia | Nutrologia
             </span>
-            <hr>
+            <div class="divider"></div>
             <span class="default-color isMobileCenter">
                 Esse site tem o objetivo de fornecer informações sobre os cuidados diários com a pele e esclarecer dúvidas sobre os principais tratamentos disponíveis atualmente na medicina estética no Brasil e no mundo. Boa leitura!
             </span>

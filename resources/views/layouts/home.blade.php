@@ -1,7 +1,7 @@
 <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat|Raleway" rel="stylesheet">
 <link rel="stylesheet" href="{{ asset('config/main.css') }}">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<link rel="stylesheet" href="{{ asset('materialize/css/materialize.min.css') }}">
+<link rel="stylesheet" href="{{ asset('materialize/css/materialize.css') }}">
 <link rel="stylesheet" href="{{ asset('css/default/config.css') }}">
 
 

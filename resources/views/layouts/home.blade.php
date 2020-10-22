@@ -4,8 +4,6 @@
 <link rel="stylesheet" href="{{ asset('materialize/css/materialize.css') }}">
 <link rel="stylesheet" href="{{ asset('css/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css') }}">
 <link rel="stylesheet" href="{{ asset('css/default/config.css') }}">
-<script src="{{ asset('js/libs/jquery.js') }}"></script>
-<script src="{{ asset('js/utils/Mask.js') }}"></script>
 
 
 <meta charset="utf-8" />
@@ -26,7 +24,8 @@
 
 
 <script src="{{ asset('config/main.js') }}"></script>
-
+<script src="{{ asset('js/libs/jquery.js') }}"></script>
+<script src="{{ asset('js/utils/Mask.js') }}"></script>
 <script src="{{ asset('materialize/js/materialize.js') }}"></script>
 <script src="{{ asset('js/utils/ElementProperty.js') }}"></script>
 <script src="{{ asset('js/service/Session.js') }}"></script>

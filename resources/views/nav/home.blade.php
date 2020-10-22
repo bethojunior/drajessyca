@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="{{ asset('css/nav/default.css') }}">
 <link rel="stylesheet" href="{{ asset('css/home/home.css') }}">
 
-<div class="col l12 s12 carousel carousel-slider web-only">
+<div class="col l12 s12 carousel carousel-slider ">
     @foreach($slides as $slide)
         <a class="carousel-item">
             <img src="{{  url('storage/').'/'.$slide->image }}">

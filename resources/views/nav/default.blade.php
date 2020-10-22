@@ -17,8 +17,8 @@
                         <img src="{{ asset('assets/images/middle_ground.jpg') }}">
                     </div>
                     <a href="#!user"><img class="circle" src="{{ asset('assets/images/dra.png') }}"></a>
-                    <a href="#!name"><span class="white-text name">Dra Jessyka Martins</span></a>
-                    <a href="mailto:jessyca.allves@gmail.com"><span class="white-text email">jessyca.allves@gmail.com</span></a>
+                    <a href="#!name"><span class="white-text name">Dra Jessyca Martins</span></a>
+                    <a href="mailto:drajessycamartins@gmail.com"><span class="white-text email">Drajessycamartins@gmail.com</span></a>
                 </div></li>
             <li><a href="/">Home</a></li>
             <li><div class="divider"></div></li>

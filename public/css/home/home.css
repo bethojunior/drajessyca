@@ -36,7 +36,7 @@ body{
 
 @media screen and (max-width: 992px) {
     .col.l12.s12.carousel.carousel-slider.initialized {
-        margin-top: 0 !important;
+        margin-top: 0.2vw !important;
     }
 
     .middle{

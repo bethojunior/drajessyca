@@ -4,7 +4,7 @@
 @endsection
 @section('title', 'Painel ')
 @section('content_header')
-    <h1 class="m-0 text-dark">Info</h1>
+    <h1 class="m-0 text-dark">Informações do site</h1>
 @stop
 @section('content')
     @include('includes.alerts')
@@ -13,13 +13,13 @@
             <div class="col-lg-12">
                 <div class="form-group col-lg-6 col-sm-12">
                     <span>Página inicial</span>
-                    <textarea name="home" class="form-control col-lg-12" placeholder="{{ $infos->home }}"></textarea>
+                    <textarea  style="height: 10vw" name="home" class="form-control col-lg-12" placeholder="">{{ $infos->home }}</textarea>
                 </div>
             </div>
             <div class="col-lg-12">
                 <div class="form-group col-lg-6 col-sm-12">
                     <span>Sobre mim</span>
-                    <textarea name="about" class="form-control col-lg-12" placeholder="{{ $infos->about }}"></textarea>
+                    <textarea style="height: 20vw" name="about" class="form-control col-lg-12" placeholder="">{{ $infos->about }}</textarea>
                 </div>
             </div>
             <div class="col-lg-12">

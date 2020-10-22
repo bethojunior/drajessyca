@@ -36,7 +36,7 @@
 
     <div class="footer-copyright">
         <div class="container center">
-            ©<a class="white-text" href="htttps://madgic.com.br" target="_blank">Powered by Madgic 2020</a>
+            ©<a class="white-text" href="https://madgic.com.br" target="_blank">Powered by Madgic 2020</a>
         </div>
     </div>
 </footer>

@@ -14,11 +14,20 @@ body{
 .web-only{
     display: block;
 }
+.fa.fa-instagram , .fa.fa-facebook , .fa.fa-whatsapp{
+    font-size: 1.2vw;
+    padding-bottom: 0.7vw;
+}
 @media screen and (max-width: 992px) {
     .mobile-only{
         display: block;
     }
     .web-only{
         display: none;
+    }
+
+    .fa.fa-instagram , .fa.fa-facebook  , .fa.fa-whatsapp{
+        font-size: 7vw;
+        padding-bottom: 2vw;
     }
 }

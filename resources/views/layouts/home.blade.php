@@ -2,6 +2,7 @@
 <link rel="stylesheet" href="{{ asset('config/main.css') }}">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link rel="stylesheet" href="{{ asset('materialize/css/materialize.css') }}">
+<link rel="stylesheet" href="{{ asset('css/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css') }}">
 <link rel="stylesheet" href="{{ asset('css/default/config.css') }}">
 
 

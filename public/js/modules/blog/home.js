@@ -25,7 +25,7 @@ elementProperty.addEventInElement('.through-blogs','onclick',function () {
                     <h5 style="color: #a34863!important">${blog.title}</h5>
                 </div>
                 <div class="col l4 s12">
-                    <img class="" src="/storage/${blog.image}">
+                    <img class="col l12 s12" src="/storage/${blog.image}">
                 </div>
                 <div class="col l8 s12">
                     <p style="color: slategray!important">${blog.content}</p>

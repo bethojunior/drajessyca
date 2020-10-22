@@ -13,6 +13,7 @@ elementProperty.addEventInElement('#search-blog','oninput',function () {
 
 elementProperty.addEventInElement('.through-blogs','onclick',function () {
     let blog = JSON.parse(this.getAttribute('data'));
+    console.log(blog)
     $('#modal-blog').modal('open');
     elementProperty.getElement('#content-blog', these => {
         these.innerHTML = `

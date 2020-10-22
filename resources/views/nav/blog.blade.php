@@ -5,7 +5,7 @@
     <div class="col l2"></div>
     <div class="row col l6 s12 container">
         @foreach($blogs as $blog)
-            <div class="card row col l12 s12 through-blogs" value="{{ $blog->title }}">
+            <div class="card row col l12 s12 through-blogs" data="{{ $blog }}" value="{{ $blog->title }}">
                 <div class="col l12 s12">
                     <h3 class="default-color isMobileCenter">{{ $blog->title }}</h3>
                 </div>
@@ -57,7 +57,14 @@
 
 </div>
 
+<div id="modal-blog" class="modal bottom-sheet">
+    <div class="modal-content" id="content-blog">
+    </div>
 
+    <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Fechar</a>
+    </div>
+</div>
 
 <script src="{{ asset('js/modules/home/init.js') }}"></script>
 <script src="{{ asset('js/modules/blog/home.js') }}"></script>

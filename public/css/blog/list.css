@@ -47,3 +47,24 @@
 .row.col.l12.s12.blog .row.col.l6.s12.container .card.row.col.l12.s12 .row.col.l12.s12.content{
     margin-top: 2vw;
 }
+
+.modal.bottom-sheet {
+    top: auto;
+    bottom: -100%;
+    margin: 0;
+    width: 100%;
+    max-height: 100%;
+    border-radius: 0;
+    will-change: bottom, opacity;
+    padding-bottom: 4vw;
+    padding-top: 1vw;
+    background-color: ghostwhite;
+}
+.modal .modal-footer {
+    border-radius: 0 0 2px 2px;
+    background-color: transparent!important;
+    padding: 4px 6px;
+    height: 56px;
+    width: 100%;
+    text-align: right;
+}

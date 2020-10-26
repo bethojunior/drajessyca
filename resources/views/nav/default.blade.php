@@ -4,7 +4,7 @@
 <nav class="nav-extended">
     <div class="nav-wrapper mobile-only">
         <a href="#" class="brand-logo ">
-            <img class="col s12 " src="{{ asset('assets/images/logo/log.png') }}">
+            <img class="col s12 " src="{{ asset('assets/images/logo/jessyca-01.png') }}">
         </a>
         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">

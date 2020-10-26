@@ -1,9 +1,7 @@
 {{--<link rel="manifest" href="{{ asset('manifest.json') }}">--}}
-
-
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="application-name" content="PWA">
-<link rel="icon" sizes="512x512" href="{{ asset('images/icons/icon-512x512.png') }}">
+<link rel="icon" sizes="512x512" href="{{ asset('512.png') }}">
 
 <!-- Add to homescreen for Safari on iOS -->
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -17,10 +15,10 @@
 <link href="{{ asset('512.png') }}" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image" />
 <link href="{{ asset('512.png') }}" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
 <link href="{{ asset('512.png') }}" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image" />
-<link href="{{ asset('512.png') }}" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
-<link href="{{ asset('512.png') }}" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
-<link href="{{ asset('512.png') }}" media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
-<link href="{{ asset('512.png') }}" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+<link href="{{ asset('1024.png') }}" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+<link href="{{ asset('1024.png') }}" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+<link href="{{ asset('1024.png') }}" media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+<link href="{{ asset('1024.png') }}" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
 
 <!-- Tile for Win8 -->
 <meta name="msapplication-TileColor" content="#BA7C8E">

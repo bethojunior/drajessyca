@@ -1,5 +1,4 @@
 <link rel="manifest" href="{{ asset('manifest.json') }}">
-<link rel="manifest" href="{{ asset('sw.js') }}">
 
 
 <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat|Raleway" rel="stylesheet">

@@ -1,6 +1,15 @@
 <link rel="manifest" href="{{ asset('manifest.json') }}">
 
 
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<link href="{{ asset('512.png') }}" sizes="2048x2732" rel="apple-touch-startup-image" />
+<link href="{{ asset('512.png') }}" sizes="1668x2224" rel="apple-touch-startup-image" />
+<link href="{{ asset('512.png') }}" sizes="1536x2048" rel="apple-touch-startup-image" />
+<link href="{{ asset('512.png') }}" sizes="1125x2436" rel="apple-touch-startup-image" />
+<link href="{{ asset('512.png') }}" sizes="1242x2208" rel="apple-touch-startup-image" />
+
+
+
 <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat|Raleway" rel="stylesheet">
 <link rel="stylesheet" href="{{ asset('config/main.css') }}">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">

@@ -4,7 +4,7 @@
 <nav class="nav-extended">
     <div class="nav-wrapper mobile-only">
         <a href="#" class="brand-logo ">
-            <img class="col s12 " src="{{ asset('assets/images/logo/jessyca-01.png') }}">
+            <img class="col s12 " src="{{ asset('assets/images/logo/j3.png') }}">
         </a>
         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
@@ -32,7 +32,7 @@
             <li class="tab"><a class="tab-navigation active" href="#home">Home</a></li>
             <li class="tab"><a class="tab-navigation" href="#pageAbout">A médica</a></li>
             <li class="tab zindex">
-                <img src="{{ asset('assets/images/logo/jessyca-01.png') }}">
+                <img style="margin-top: -2vw" src="{{ asset('assets/images/logo/j3.png') }}">
             </li>
             <li class="tab"><a class="tab-navigation" id="go-blog" href="#pageBlog">Blog</a></li>
             <li class="tab"><a class="tab-navigation" href="#pageAgenda">Agenda</a></li>

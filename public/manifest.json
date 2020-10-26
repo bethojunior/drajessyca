@@ -1,0 +1,18 @@
+{
+    "name": "Blog Dra Jessyca Martins",
+    "short_name": "Dra Jessyca",
+    "theme_color": "#D6C6C6",
+    "background_color": "#BA7C8E",
+    "scope": "/",
+    "start_url": "",
+    "lang": "pt-BR",
+    "display": "standalone",
+    "orientation": "portrait",
+    "icons": [
+        {
+            "src": "icon.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

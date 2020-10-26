@@ -32,7 +32,7 @@
             <li class="tab"><a class="tab-navigation active" href="#home">Home</a></li>
             <li class="tab"><a class="tab-navigation" href="#pageAbout">A médica</a></li>
             <li class="tab zindex">
-                <img src="{{ asset('assets/images/logo/jessyca-02.png') }}">
+                <img src="{{ asset('assets/images/logo/jessyca-01.png') }}">
             </li>
             <li class="tab"><a class="tab-navigation" id="go-blog" href="#pageBlog">Blog</a></li>
             <li class="tab"><a class="tab-navigation" href="#pageAgenda">Agenda</a></li>

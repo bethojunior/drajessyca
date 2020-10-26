@@ -4,7 +4,6 @@
 <nav class="nav-extended">
     <div class="nav-wrapper mobile-only">
         <a href="#" class="brand-logo ">
-
             <img class="col s12 " src="{{ asset('assets/images/logo/j3.png') }}">
         </a>
         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>

@@ -1,5 +1,5 @@
 @include('layouts.home')
-
+@laravelPWA
 <title>Dra Jessyca Martins</title>
 
 <div class="content row col-lg-12">

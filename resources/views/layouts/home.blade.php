@@ -1,7 +1,5 @@
 {{--<link rel="manifest" href="{{ asset('manifest.json') }}">--}}
 
-@laravelPWA
-
 
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="application-name" content="PWA">

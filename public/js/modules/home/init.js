@@ -6,7 +6,7 @@ $('.carousel.carousel-slider').carousel({fullWidth: true});
 $('ul.tabs').tabs();
 $('select').material_select();
 
-setInterval( () =>{ $('.carousel').carousel('next', 1);} , 5500)
+setInterval( () =>{ $('.carousel').carousel('next');} , 5500)
 
 elementProperty.getElement('.tab-item',tabs => {
     if(tabs.classList.contains('s12'))

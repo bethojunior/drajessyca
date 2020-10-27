@@ -30,7 +30,7 @@
     </div>
     <div class="row col l4">
         <div class="col l12 s12 tools">
-            <div class="col l6 s12 search">
+            <div class="col l10 s12 search">
                 <div class="input-field col s12">
                     <input id="search-blog" type="text" class="validate">
                     <label for="search-blog">Buscar blog</label>
@@ -39,7 +39,7 @@
             <div class="col l12 s12 ">
                 <div class="divider"></div>
             </div>
-            <div class="col l6 s12 search">
+            <div class="col l10 s12 search">
                 <h5>Recentes</h5>
                 <div class="col l12 s12 ">
                     <div class="divider"></div>
